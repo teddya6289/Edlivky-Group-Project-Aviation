@@ -51,7 +51,7 @@ constraint FK_PaymentID foreign key(Payment_ID)references Payments(Payment_ID));
   Number_Stops          number (7) null,
   Departure_Date        date not null,	
   Departure_Time        varchar2 (15) not null,	
-  Arrival_Date	        date not null,
+  Arrival_Date	         date not null,
   Arrival_Time          varchar2 (15) not null,
   constraint Fk_PaymentID2 foreign key(payment_ID) references payments(Payment_ID),
   constraint Fk_BookingID2 foreign key(Booking_ID) references Booking(Booking_ID));
@@ -64,7 +64,7 @@ constraint FK_PaymentID foreign key(Payment_ID)references Payments(Payment_ID));
  Man_Com                varchar2 (15) not null,
  Man_Date               date not null,
  Expected_LifeSpan      number (7) not null,
- Cost	                number (7) not null,
+ Cost	                  number (7) not null,
  Procure_Officer        varchar2 (20) not null);
  
 -- 7th to Run
@@ -161,4 +161,5 @@ add constraint Flight_passenger_R foreign key (Passenger_ID) references Passenge
 
 
 --PROJECT AVAVIATION ENDS
+
 
