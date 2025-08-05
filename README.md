@@ -28,7 +28,7 @@ For this project we are going to utilize 13 relational different objects that wi
 12.	Flight table
 13.	Passenger table
 
-Database object SQL creation script ['script.sql'](Project_Aviation.sql)
+Database object SQL creation script [`script`](Project_Aviation.sql)
 
 ---
 
